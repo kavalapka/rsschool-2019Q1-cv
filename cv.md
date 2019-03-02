@@ -1,7 +1,7 @@
 
 Junior JS Developer
 ---------------------------------
-###Kate Zenchik
+##Kate Zenchik
 
 
 
@@ -19,35 +19,36 @@ In parallel I learn another language - Spanish. A lot of *languages*, yeah!
 I have experience in commercial programming and 
 I can apply my knowledge to projects. 
 
-**Skills**: 
-- [x] Vanilla JS, AngularJS, NodeJS, JQuery, Lodash
+**Skills**:
+ 
+ [x] Vanilla JS, AngularJS, NodeJS, JQuery, Lodash
 
-- [x] HTML, CSS, Bootstrap
+ [x] HTML, CSS, Bootstrap
 
-- [x] Git, Gulp/Grunt, Webpack
+ [x] Git, Gulp/Grunt, Webpack
 
 **Code examples**:
- ``` javascript
-    vm.msg = '';
-      vm.transmitMessage = function(message){
-        params.timestamp = new Date().getTime();
-        params.msg = message;
-        if(params.msg.length > 0) {
-          sendService.sendMessage(params).then(successCallback, errorCallback);
-        }
-        vm.msg = '';
-      };
- ```
+``` javascript
+vm.msg = '';
+vm.transmitMessage = function(message){
+  params.timestamp = new Date().getTime();
+  params.msg = message;
+  if(params.msg.length > 0) {
+    sendService.sendMessage(params).then(successCallback, errorCallback);
+  }
+  vm.msg = '';
+};
+```
  
- ```
- /**
-  * 1234756756777890 => 12**********7890
-  */
- const formatCard = (number) => {
-   number = number.replace(/(?<=\d{2})\d(?=\d{4})/g, '*');
-   return number;
- };
- ```
+``` javascript
+/**
+ * 1234756756777890 => 12**********7890
+ */
+const formatCard = (number) => {
+  number = number.replace(/(?<=\d{2})\d(?=\d{4})/g, '*');
+  return number;
+};
+```
 
 **Experience**:
 
