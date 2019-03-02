@@ -1,8 +1,9 @@
-
-Junior JS Developer
 ---------------------------------
-##Kate Zenchik
+![My Photo](https://avatars3.githubusercontent.com/u/16915498?s=460&v=4) 
+###Junior JS Developer
+**Kate Zenchik** 
 
+---------------------------------
 
 
 **Contact information**:
