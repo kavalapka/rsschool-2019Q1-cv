@@ -1,10 +1,11 @@
 ---------------------------------
 ![My Photo](https://avatars3.githubusercontent.com/u/16915498?s=460&v=4) 
-###Junior JS Developer
-**Kate Zenchik** 
+
+### Junior JS Developer
+
+#### Kate Zenchik
 
 ---------------------------------
-
 
 **Contact information**:
 * phone: +375259943496
@@ -22,11 +23,9 @@ I can apply my knowledge to projects.
 
 **Skills**:
  
- [x] Vanilla JS, AngularJS, NodeJS, JQuery, Lodash
-
- [x] HTML, CSS, Bootstrap
-
- [x] Git, Gulp/Grunt, Webpack
+- [x] Vanilla JS, AngularJS, NodeJS, JQuery, Lodash
+- [x] HTML, CSS, Bootstrap
+- [x] Git, Gulp/Grunt, Webpack
 
 **Code examples**:
 ``` javascript
