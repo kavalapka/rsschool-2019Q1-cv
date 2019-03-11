@@ -2,6 +2,10 @@ body {
   width: 1024px;
   margin: 0 auto;
   background-color: lightgray;
+  color: #24292e;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .header {
@@ -12,4 +16,15 @@ body {
 
 .header img {
   margin-right: 20px;
+}
+
+.function {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: -10px;
+}
+
+.function h2 {
+  margin: 0;
 }
