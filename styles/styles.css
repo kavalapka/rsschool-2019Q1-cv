@@ -30,6 +30,7 @@ body {
 
 div > p {
   padding-left: 40px;
+  padding-right: 40px;
 }
 
 ul.checkmark {
