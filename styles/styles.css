@@ -28,3 +28,11 @@ body {
 .function h2 {
   margin: 0;
 }
+
+ul.checkmark {
+  padding-left: 27px;
+}
+
+.checkmark li {
+  list-style-type: none;
+}
