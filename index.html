@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/railscasts.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   <title>My CV</title>
 </head>
 <body>
@@ -42,7 +46,7 @@
     </div>
     <div class="code">
       <h3>Code examples:</h3>
-      <xmp>
+      <pre><code class="js">
         vm.msg = '';
         vm.transmitMessage = function(message){
         params.timestamp = new Date().getTime();
@@ -60,7 +64,7 @@
         number = number.replace(/(?<=\d{2})\d(?=\d{4})/g, '*');
         return number;
         };
-      </xmp>
+      </code></pre>
     </div>
     <div class="experience">
       <h3>Experience:</h3>
