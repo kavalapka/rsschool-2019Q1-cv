@@ -29,6 +29,10 @@ body {
   margin: 0;
 }
 
+div > p {
+  padding-left: 40px;
+}
+
 ul.checkmark {
   padding-left: 27px;
 }
