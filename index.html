@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <title>My CV</title>
+</head>
+<body>
+<header class="header">
+  <img src="./styles/images/photo-github.jpeg" width="160px" height="160px">
+  <hgroup class="function">
+    <h1>Junior JS Developer</h1>
+    <h2>Kate Zenchik</h2>
+  </hgroup>
+</header>
+<main>
+  <section>
+    <div class="contact-me">
+      <h3>Contact information:</h3>
+      <ul>
+        <li> phone: +375259943496</li>
+        <li> viber, telegram: +375259943496</li>
+      </ul>
+    </div>
+    <div class="summary">
+      <h3>Summary:</h3>
+      <p>I like programming and I like study.
+        This year, hope first half, I'm planning to spend for education:
+        I learn <strong>JS, HTML/CSS</strong> with <strong>EPAM</strong>, after it will be
+        <strong>React</strong> framework.
+        In parallel I learn another language - Spanish. A lot of <em>languages</em>, yeah!
+        I have experience in commercial programming and
+        I can apply my knowledge to projects. </p>
+    </div>
+    <div class="skills">
+      <h3>Skills:</h3>
+      <ul class="checkmark">
+        <li><span>&#10004;</span> Vanilla JS, AngularJS, NodeJS, JQuery, Lodash</li>
+        <li><span>&#10004;</span> HTML, CSS, Bootstrap</li>
+        <li><span>&#10004;</span> Git, Gulp/Grunt, Webpack</li>
+      </ul>
+    </div>
+    <div class="code">
+      <h3>Code examples:</h3>
+      <pre><code class="js">
+        vm.msg = '';
+        vm.transmitMessage = function(message){
+        params.timestamp = new Date().getTime();
+        params.msg = message;
+        if(params.msg.length > 0) {
+        sendService.sendMessage(params).then(successCallback, errorCallback);
+        }
+        vm.msg = '';
+        };
+
+        /**
+        * 1234756756777890 => 12**********7890
+        */
+        const formatCard = (number) => {
+        number = number.replace(/(?<=\d{2})\d(?=\d{4})/g, '*');
+        return number;
+        };
+      </code></pre>
+    </div>
+    <div class="experience">
+      <h3>Experience:</h3>
+      <p>Worked with AngularJS on Website and Admin pages on 2 projects for Ameriacan customers in transport and
+        travel industries. Worked with Google Maps in case of pointers and drawing routers.
+        Learnt JS on such platforms as Codecademy, Coursera, Javascript.ru. Also,
+        took on-site course by Software.travel company.
+        Previously worked at WG and Software.travel ad SysAdmin and DevOps.
+        Have a little bit of Manager experience in product release process.</p>
+    </div>
+    <div class="education">
+      <h3>Education:</h3>
+      <p>BSUIR'2011, Faculty of Telecommunication</p>
+    </div>
+    <div class="foreign-langs">
+      <h3>Foreign languages:</h3>
+      <ul>
+        <li><strong>English</strong> - Intermediate Level. Can talk to foreign colleagues.</li>
+        <li><strong>Spanish</strong> - Newbie :) Just start learning.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+</body>
+</html>

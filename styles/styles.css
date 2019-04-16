@@ -1,0 +1,42 @@
+body {
+  width: 1024px;
+  margin: 0 auto;
+  color: #24292e;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.header img {
+  margin-right: 20px;
+}
+
+.function {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: -10px;
+}
+
+.function h2 {
+  margin: 0;
+}
+
+div > p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+ul.checkmark {
+  padding-left: 27px;
+}
+
+.checkmark li {
+  list-style-type: none;
+}
